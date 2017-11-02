@@ -3,4 +3,6 @@
 </ActionBar>
 
 <GridLayout class="page">
+    <Carousel (loaded)="onCarouselLoad($event)" height="200"></Carousel>
+    <ActivityIndicator [busy]="loading"></ActivityIndicator>
 </GridLayout>
